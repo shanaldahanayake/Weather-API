@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Weather Home Page</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a city Name</h3>
+            <input id="city" class="city-input" type="text" placeholder="Colombo, Mumbai,New York">
+            <button id="submit" class="search-btn">Search</button>
+              
+        </div>
+        <div class="weather-date">
+            <div class="current-weather">
+                <div class="details">
+                    <h2 id="entered-city">Colombo</h2>
+                    <h4 id="temp">Temperature: 32 C</h4>
+                    <h4 id="wind">Wind:  mph</h4>
+                    <h4 id="humadity">Humadity: 79%</h4>
+                </div>
+                <div class="icon">
+                    <img id="image" src="//cdn.weatherapi.com/weather/64x64/day/302.png" alt="Weather Icon">
+                    <h4 id="status">Moderate Rain</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
